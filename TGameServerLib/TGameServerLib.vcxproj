@@ -84,7 +84,8 @@
     <ClInclude Include="GameEngine\IGObj.h" />
     <ClInclude Include="Data\RefObjBaseData.h" />
     <ClInclude Include="GObj.h" />
-    <ClInclude Include="InstanceObj.h" />
+    <ClInclude Include="GameEngine\InstanceObj.h" />
+    <ClInclude Include="InstanceChar.h" />
     <ClInclude Include="memory\hook.h" />
     <ClInclude Include="memory\Fixer.h" />
     <ClInclude Include="memory\remodel\Field.h" />
@@ -109,7 +110,8 @@
     </ClCompile>
     <ClCompile Include="GameEngine\IGObj.cpp" />
     <ClCompile Include="GObj.cpp" />
-    <ClCompile Include="InstanceObj.cpp" />
+    <ClCompile Include="GameEngine\InstanceObj.cpp" />
+    <ClCompile Include="InstanceChar.cpp" />
     <ClCompile Include="memory\hook.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

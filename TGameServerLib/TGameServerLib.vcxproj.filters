@@ -60,9 +60,6 @@
     <ClInclude Include="GameEngine\DBRecord.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="InstanceObj.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Data\RefObjBaseData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -70,6 +67,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Data\RefObjChar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\InstanceObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceChar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -98,7 +101,10 @@
     <ClCompile Include="GameEngine\DBRecord.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="InstanceObj.cpp">
+    <ClCompile Include="GameEngine\InstanceObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceChar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
